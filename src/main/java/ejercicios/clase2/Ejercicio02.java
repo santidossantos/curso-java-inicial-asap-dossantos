@@ -18,6 +18,8 @@ Por lo tanto 220 y 284 son amigos.
 
 public class Ejercicio02 {
 
+
+
     public static void main(String[] args) {
 
     }
