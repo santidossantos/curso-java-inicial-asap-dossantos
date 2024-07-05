@@ -16,11 +16,29 @@ La suma de los divisores propios de 284 da como resultado 220.
 Por lo tanto 220 y 284 son amigos.
  */
 
+import ar.edu.ort.p1.util.Consola;
+
 public class Ejercicio02 {
 
+    public static int calcularSumaDivisoresPropios(int n) {
+        int suma = 0;
 
+        for (int i = 1; i <= n / 2; i++) { // Itero desde 1 hasta numero/2, ya que no puede haber divisores propios mayores que numero/2
+            if (n % i == 0) { // Si i es divisor de numero
+                suma += i; // Agrego i a la suma de divisores propios
+            }
+        }
+        return suma;
+    }
+
+    public static boolean sonAmigos(int a, int b) {
+        return ((calcularSumaDivisoresPropios(a) == b) && (calcularSumaDivisoresPropios(b) == a));
+    }
 
     public static void main(String[] args) {
+        int a = Consola.leerEntero("Ingrese a: ");
+        int b = Consola.leerEntero("Ingrese b: ");
 
+        System.out.println(sonAmigos(a, b));
     }
 }
