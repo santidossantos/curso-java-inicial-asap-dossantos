@@ -36,8 +36,6 @@ public class Ejercicio03 {
             heights[i] = Consola.leerDouble("Ingrese una altura: ");
         }
 
-        Arrays.stream(heights).forEach(System.out::println);
-
         double averageHeight = averageHeight(heights);
 
         System.out.println("\nLa altura promedio es: " + averageHeight);
