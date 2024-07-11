@@ -23,9 +23,17 @@
         </dependency>
         <dependency>
             <groupId>com.github.sanchezih</groupId>
-            <artifactId>ort-p1-lib</artifactId>
+            <artifactId>ihs-java-util</artifactId>
             <version>main-SNAPSHOT</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.34</version>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
     <repositories>

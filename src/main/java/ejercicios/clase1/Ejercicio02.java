@@ -11,7 +11,8 @@ package ejercicios.clase1;
     Numero de la suerte: 28
  */
 
-import ar.edu.ort.p1.util.Consola;
+
+import com.github.sanchezih.util.io.Consola;
 
 public class Ejercicio02 {
 

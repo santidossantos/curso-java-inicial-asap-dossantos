@@ -19,7 +19,7 @@ Si la calificacion introducida no es valida se muestra un mensaje indicandolo
 y el programa finaliza.
  */
 
-import ar.edu.ort.p1.util.Consola;
+import com.github.sanchezih.util.io.Consola;
 
 public class Ejercicio03 {
 

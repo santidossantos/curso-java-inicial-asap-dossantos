@@ -8,7 +8,8 @@ Por ejemplo, si se ingresa el numero 3601 el programa debera mostrar:
 "La suma de sus cifras es: 10".
  */
 
-import ar.edu.ort.p1.util.Consola;
+
+import com.github.sanchezih.util.io.Consola;
 
 public class Ejercicio03 {
 

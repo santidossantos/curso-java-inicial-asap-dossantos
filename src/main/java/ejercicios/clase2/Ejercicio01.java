@@ -12,7 +12,8 @@ se obtienen de la suma de los dos anteriores: 1, 1, 2, 3, 5, 8, 13...
 
  */
 
-import ar.edu.ort.p1.util.Consola;
+
+import com.github.sanchezih.util.io.Consola;
 
 public class Ejercicio01 {
 

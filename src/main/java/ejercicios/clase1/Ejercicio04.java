@@ -7,7 +7,8 @@ Un anio es bisiesto si es divisible por 4 y no lo es por 100
 o si es divisible por 400.
  */
 
-import ar.edu.ort.p1.util.Consola;
+
+import com.github.sanchezih.util.io.Consola;
 
 public class Ejercicio04 {
 
