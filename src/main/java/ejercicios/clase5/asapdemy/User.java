@@ -1,7 +1,6 @@
-package ejercicios.clase5;
+package ejercicios.clase5.asapdemy;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
 
 @Getter

@@ -1,14 +1,14 @@
-package ejercicios.clase5;
+package ejercicios.clase5.asapdemy;
 
 
 
-import ejercicios.clase5.enums.SuscribeMessages;
+import ejercicios.clase5.asapdemy.enums.SuscribeMessages;
 import lombok.Data;
 import java.util.ArrayList;
 import java.util.List;
 
-import static ejercicios.clase5.constants.Constants.MAX_SCHOLARSHIPS;
-import static ejercicios.clase5.enums.SuscribeMessages.*;
+import static ejercicios.clase5.asapdemy.constants.Constants.MAX_SCHOLARSHIPS;
+import static ejercicios.clase5.asapdemy.enums.SuscribeMessages.*;
 
 @Data
 public class Course {

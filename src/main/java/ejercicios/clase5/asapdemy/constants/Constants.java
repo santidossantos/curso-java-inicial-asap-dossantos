@@ -1,4 +1,4 @@
-package ejercicios.clase5.constants;
+package ejercicios.clase5.asapdemy.constants;
 
 public final class Constants {
 

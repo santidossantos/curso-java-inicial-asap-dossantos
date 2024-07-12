@@ -1,4 +1,4 @@
-package ejercicios.clase5.enums;
+package ejercicios.clase5.asapdemy.enums;
 
 
 public enum SuscribeMessages {

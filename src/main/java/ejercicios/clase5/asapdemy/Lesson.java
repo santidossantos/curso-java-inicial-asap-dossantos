@@ -1,6 +1,6 @@
-package ejercicios.clase5;
+package ejercicios.clase5.asapdemy;
 
-import ejercicios.clase5.enums.LessonType;
+import ejercicios.clase5.asapdemy.enums.LessonType;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

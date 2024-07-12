@@ -1,16 +1,15 @@
-package ejercicios.clase5;
+package ejercicios.clase5.asapdemy;
 
-import ejercicios.clase5.enums.LessonType;
-import ejercicios.clase5.enums.SuscribeMessages;
+import ejercicios.clase5.asapdemy.enums.LessonType;
+import ejercicios.clase5.asapdemy.enums.SuscribeMessages;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static ejercicios.clase5.enums.SuscribeMessages.CURSO_INEX;
-import static ejercicios.clase5.enums.SuscribeMessages.USUARIO_INEX;
+import static ejercicios.clase5.asapdemy.enums.SuscribeMessages.CURSO_INEX;
+import static ejercicios.clase5.asapdemy.enums.SuscribeMessages.USUARIO_INEX;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ASAPDemyApp {
