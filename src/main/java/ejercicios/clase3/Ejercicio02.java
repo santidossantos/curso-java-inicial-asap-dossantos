@@ -10,4 +10,5 @@ el minimo y las posiciones que ocupan en el array.
  */
 
 public class Ejercicio02 {
+
 }
