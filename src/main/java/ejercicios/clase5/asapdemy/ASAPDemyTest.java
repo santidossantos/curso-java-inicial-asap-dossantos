@@ -12,7 +12,7 @@ import static ejercicios.clase5.asapdemy.enums.SuscribeMessages.CURSO_INEX;
 import static ejercicios.clase5.asapdemy.enums.SuscribeMessages.USUARIO_INEX;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ASAPDemyApp {
+public class ASAPDemyTest {
 
     User u1;
     User u2;
@@ -54,7 +54,7 @@ public class ASAPDemyApp {
         curso2.addLesson(l2);
     }
 
-    private SuscribeMessages suscribirseACurso(int userId, int courseId) {
+    public SuscribeMessages suscribirseACurso(int userId, int courseId) {
         User user = this.users.stream().filter(u -> u.getId() == userId).findFirst().orElse(null);
         Course course = this.courses.stream().filter(c -> c.getId() == courseId).findFirst().orElse(null);
 
