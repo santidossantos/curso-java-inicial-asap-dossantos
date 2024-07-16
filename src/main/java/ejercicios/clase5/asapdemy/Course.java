@@ -1,7 +1,6 @@
 package ejercicios.clase5.asapdemy;
 
 
-
 import ejercicios.clase5.asapdemy.enums.SuscribeMessages;
 import lombok.Data;
 import java.util.ArrayList;
@@ -45,8 +44,7 @@ public class Course {
     }
 
     private boolean hasReachedMaxScolarshipHolders() {
-        return this.students.stream().
-                filter(User::isScolarShipHolder).count() >= MAX_SCHOLARSHIPS;
+        return this.students.stream().filter(User::isScolarShipHolder).count() >= MAX_SCHOLARSHIPS;
     }
 
     public void addLesson(Lesson lesson) {

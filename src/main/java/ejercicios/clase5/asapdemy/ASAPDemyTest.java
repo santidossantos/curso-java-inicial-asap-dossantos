@@ -54,7 +54,7 @@ public class ASAPDemyTest {
         curso2.addLesson(l2);
     }
 
-    public SuscribeMessages suscribirseACurso(int userId, int courseId) {
+    private SuscribeMessages suscribirseACurso(int userId, int courseId) {
         User user = this.users.stream().filter(u -> u.getId() == userId).findFirst().orElse(null);
         Course course = this.courses.stream().filter(c -> c.getId() == courseId).findFirst().orElse(null);
 
