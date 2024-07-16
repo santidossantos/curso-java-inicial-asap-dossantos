@@ -14,7 +14,7 @@ public class Ejercicio02 {
         Random random = new Random();
         int[] arr = new int[8];
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = random.nextInt(1, 10);
+            arr[i] = random.nextInt(10) + 1;
         }
         return arr;
     }

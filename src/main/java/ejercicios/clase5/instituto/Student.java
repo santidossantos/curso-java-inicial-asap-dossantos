@@ -24,4 +24,8 @@ public class Student {
         return (int) takenSubjects.stream().filter(subject -> subject.getStatus().equals(APPROVED)).count();
     }
 
+    public void addSubject(TakenSubject takenSubject) {
+        this.takenSubjects.add(takenSubject);
+    }
+
 }

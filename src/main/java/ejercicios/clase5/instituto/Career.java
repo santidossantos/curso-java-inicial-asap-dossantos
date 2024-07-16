@@ -21,4 +21,8 @@ public class Career {
                 .sorted((student1, student2) -> student2.approvedSubjectsCount().compareTo(student1.approvedSubjectsCount()))
                 .map(student -> new Report(student.getName(), student.getMail(), student.approvedSubjectsCount())).toList();
     }
+
+    public void addStudent(Student student) {
+        this.students.add(student);
+    }
 }

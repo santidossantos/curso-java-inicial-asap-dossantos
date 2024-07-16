@@ -11,4 +11,9 @@ public class Report {
     private final String studentEmail;
     private final Integer approvedSubjects;
 
+    @Override
+    public String toString() {
+        return "Student: " + studentName + " - Email: " + studentEmail + " - Approved subjects: " + approvedSubjects;
+    }
+
 }
